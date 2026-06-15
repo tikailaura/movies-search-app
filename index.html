@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies Search App</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="app-card">
+      <h1>Movies Search App</h1>
+      <p class="subtitle">
+        Search for movies and explore results from the OMDb API in a clean card layout.
+      </p>
+
+      <div class="search-bar">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Search for a movie..."
+          autocomplete="off"
+        />
+        <button id="search-btn" type="button">Search</button>
+      </div>
+
+      <div id="status" class="status" aria-live="polite"></div>
+      <section id="results" class="results"></section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
