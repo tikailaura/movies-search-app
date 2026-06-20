@@ -3,7 +3,7 @@ const searchBtn = document.getElementById("search-btn");
 const statusElement = document.getElementById("status");
 const resultsElement = document.getElementById("results");
 
-const API_KEY = "71846c2e";
+const API_KEY = "YOUR-API-KEY";
 const OMDB_URL = "https://www.omdbapi.com/";
 
 function setStatus(message, type = "") {
