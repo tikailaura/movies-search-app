@@ -22,3 +22,23 @@ Delivered a dynamic frontend search application that connects user input to live
 <img width="1887" height="897" alt="display" src="https://github.com/user-attachments/assets/a33e4ebd-0023-4cde-8804-14676cd81269" />
 <img width="1094" height="441" alt="no-results state" src="https://github.com/user-attachments/assets/51d1d73e-7f19-41ce-9a15-54a44d73899c" />
 
+## API Key Setup
+
+This project uses the OMDb API to fetch movie data.
+
+To run the project, you'll need your own free API key.
+
+### Steps
+
+1. Visit https://www.omdbapi.com/apikey.aspx
+2. Request a free API key using your email address.
+3. Once you receive your key, open the JavaScript file.
+4. Replace the placeholder with your API key:
+
+```javascript
+const API_KEY = "YOUR_API_KEY";
+```
+
+5. Save the file and run the project.
+
+> **Note:** The API key is not included in this repository for security reasons.
